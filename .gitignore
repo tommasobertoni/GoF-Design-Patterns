@@ -5,4 +5,4 @@
 !*.java
 !*.md
 # ...even if they are in subdirectories
-!src/
+!*/
