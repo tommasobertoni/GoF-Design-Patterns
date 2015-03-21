@@ -1,7 +1,7 @@
 ## Factory Method
 
-> "This design pattern is used to deal with the problem of creating objects without specifying the exact class of object that will
-be created. This is done by creating objects via calling a factory method."<br>
+> "*This design pattern is used to deal with the problem of creating objects without specifying the exact class of object that will
+be created. This is done by creating objects via calling a factory method.*"<br>
 [(source)](http://en.wikipedia.org/wiki/Factory_method_pattern)
 
 The implementation consists of a `PetCreator` which, of course, creates a `Pet`: the concrete classes are
