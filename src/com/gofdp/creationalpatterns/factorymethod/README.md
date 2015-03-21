@@ -8,7 +8,7 @@ The implementation consists of a `PetCreator` which, of course, creates a `Pet`:
 `DogCreator`, `CatCreator` and `BirdCreator`.
 
 <br>
-**legitimate question:**<br>
+**legitimate doubt:**<br>
 **q:** *What's the difference between Abstract Factory and _Factory Method_?
 I mean, in both cases I create an object without specifying the class..*
 
