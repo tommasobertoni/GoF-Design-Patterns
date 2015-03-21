@@ -1,4 +1,4 @@
-package com.gofdp.behavioralpatterns.adapter;
+package com.gofdp.structuralpatterns.adapter;
 
 public class RobotAdapterInheritance extends Robot implements IMeetingBehavior {
 

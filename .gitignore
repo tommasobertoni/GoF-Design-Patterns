@@ -3,5 +3,6 @@
 # But not these files...
 !.gitignore
 !*.java
+!*.md
 # ...even if they are in subdirectories
 !*/
