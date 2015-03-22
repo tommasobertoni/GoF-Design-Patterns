@@ -18,7 +18,7 @@ public class Main {
 		System.out.println("\nCloning first array\n");
 		ColorPrototype[] clonedColors = new ColorPrototype[colors.length];
 		for (int i = 0; i < clonedColors.length; i++)
-			clonedColors[i] = (ColorPrototype) colors[i].clone();
+			clonedColors[i] = colors[i].clone();
 		
 		System.out.println("Cloned array:");
 		for (ColorPrototype cp : clonedColors) {

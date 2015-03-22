@@ -23,8 +23,8 @@ public class ColorPrototype implements Cloneable {
 	}
 	
 	@Override
-	protected Object clone() throws CloneNotSupportedException {
-		return super.clone();
+	protected ColorPrototype clone() throws CloneNotSupportedException {
+		return (ColorPrototype) super.clone();
 	}
 	
 	@Override
