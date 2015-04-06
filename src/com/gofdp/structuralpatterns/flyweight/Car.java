@@ -39,7 +39,7 @@ public class Car {
 	}
 	
 	public double secondsToTravel(double meters) {
-		double noEfficiencyTime = Math.cbrt(2 * meters * _weight / (_horsePower * 735.49875));
+		double noEfficiencyTime = Math.cbrt(2 * meters * meters * _weight / (_horsePower * 735.49875));
 		return round(noEfficiencyTime * (2 - _aerodynamicEfficiency), 3);
 	}
 	
