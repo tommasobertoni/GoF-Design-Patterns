@@ -13,9 +13,9 @@ public class Main {
 		
 		System.out.println("Chef's fantasy\n-----------");
 		for (AbstractCook cook : cooks) {
-			String completeAlgName = cook.getClass().getName();
+			String completeCookName = cook.getClass().getName();
 			System.out.println("Cook: " +
-					completeAlgName.substring(completeAlgName.lastIndexOf(".") + 1, completeAlgName.length()));
+					completeCookName.substring(completeCookName.lastIndexOf(".") + 1, completeCookName.length()));
 			cook.cook();
 			System.out.println();
 		}
@@ -23,9 +23,9 @@ public class Main {
 		System.out.println("Dish number: 3\n-----------");
 		for (AbstractCook cook : cooks) {
 			try {
-				String completeAlgName = cook.getClass().getName();
+				String completeCookName = cook.getClass().getName();
 				System.out.println("Cook: " +
-						completeAlgName.substring(completeAlgName.lastIndexOf(".") + 1, completeAlgName.length()));
+						completeCookName.substring(completeCookName.lastIndexOf(".") + 1, completeCookName.length()));
 				cook.cook(2);
 			} catch (NoRecipeFoundException nRFEx) {
 				System.out.println("I don't know how to cook that dish");
